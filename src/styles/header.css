@@ -10,7 +10,8 @@
     font-size: 2rem;
     color: #e1c86c;
     position: absolute;
-    bottom: 37%;
+    bottom: 180%;
+    left: 31%;
     transition: opacity 0.3s ease;
     text-decoration: none;
 }
@@ -22,7 +23,7 @@
 
 svg {
     display: block;
-    font: 3.5em 'Montserrat';
+    font: 7.5em 'Montserrat';
     margin: 0 auto;
 }
 
