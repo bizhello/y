@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, Navigate ,useNavigate } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 
 import './styles/App.css';
 import Main from './components/Main';
@@ -27,7 +27,7 @@ function App() {
                       element={<Error/>} />
                   <Route
                       path="*"
-                      element={<Navigate to='/error'/>} />
+                      element={<Navigate to='/'/>} />
               </Routes>
           </div>
       </div>

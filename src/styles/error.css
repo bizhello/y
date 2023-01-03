@@ -5,6 +5,8 @@
     align-items: center;
     min-width: 100%;
     background: #202020;
+    margin-top: 5%;
+    padding: 10%;
 }
 .error__title {
     font-style: normal;
