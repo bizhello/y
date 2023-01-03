@@ -2,5 +2,11 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 35%;
+    margin: 35% 0;
+}
+
+@media (min-width: 905px)  {
+    .groupCards {
+        margin: 7% 0;
+    }
 }

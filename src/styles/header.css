@@ -64,3 +64,13 @@ svg {
 @keyframes stroke-offset{
     100% {stroke-dashoffset: -35%;}
 }
+
+@media (min-width: 905px)  {
+    svg {
+        font: 5.5em 'Montserrat';
+    }
+    .header__text {
+        bottom: 100%;
+        left: 45%;
+    }
+}
