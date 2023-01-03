@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bizhello/y/static/css/main.7dc68dae.css",
+    "main.js": "/bizhello/y/static/js/main.df900ed9.js",
+    "index.html": "/bizhello/y/index.html",
+    "main.7dc68dae.css.map": "/bizhello/y/static/css/main.7dc68dae.css.map",
+    "main.df900ed9.js.map": "/bizhello/y/static/js/main.df900ed9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc68dae.css",
+    "static/js/main.df900ed9.js"
+  ]
+}
