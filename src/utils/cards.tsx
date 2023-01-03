@@ -1,6 +1,6 @@
 import ICard from './../interface/interface'
 
-const Cards:ICard[] = [
+const allCards:ICard[] = [
     {
         id : 1,
         name: '',
@@ -264,4 +264,4 @@ const Cards:ICard[] = [
     }
 ]
 
-export default Cards;
+export default allCards;

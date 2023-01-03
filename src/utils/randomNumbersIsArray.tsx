@@ -7,5 +7,6 @@ const randomNumbersIsArray = (number: 6 | 9):number[] => {
     return arrNumbers;
 }
 const numberIsSix = randomNumbersIsArray(6);
+const numberIsNine = randomNumbersIsArray(9);
 
-export default numberIsSix;
+export {numberIsSix, numberIsNine};

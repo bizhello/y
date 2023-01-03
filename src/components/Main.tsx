@@ -1,24 +1,15 @@
-import React  from 'react';
-import {Box, Image, Stack} from '@chakra-ui/react'
-import Cards from "../utils/cards";
-import numberIsSix from './../utils/randomNumbersIsArray'
-import randomCards from './../utils/randomCards'
+import React from 'react';
+
+import Header from "./Header";
+import GroupCards from "./GroupCards";
 
 const Main = () => {
-
-    const cards = randomCards(Cards, numberIsSix);
-
     return (
-        <Box boxSize='sm'>
-            <Stack direction='row'>
-            {
-                cards.map((card, index) => (
-                    <Image key={index} boxSize='250px' objectFit='contain' src={card.src} />
-                ))
-            }
-            </Stack>
-        </Box>
-    );
+        <div>
+            <Header main={true} text='Технология 43'/>
+            <GroupCards />
+        </div>
+    )
 };
 
 export default Main;

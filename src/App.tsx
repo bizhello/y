@@ -1,23 +1,36 @@
-import { extendTheme, ChakraProvider } from '@chakra-ui/react'
-
 import React from 'react';
+import { Route, Routes, Navigate ,useNavigate } from 'react-router-dom';
 
+import './styles/App.css';
 import Main from './components/Main';
+import Error from './components/Error'
+import ChoiceNumberSix from "./components/ChoiceNumberSix";
+import ChoiceNumberNine from "./components/ChoiceNumberNine";
 
-const colors = {
-    brand: {
-        900: '#1a365d',
-        800: '#153e75',
-        700: '#2a69ac',
-    },
-}
-const theme = extendTheme({ colors })
 
 function App() {
   return (
-      <ChakraProvider theme={theme}>
-          <Main/>
-      </ChakraProvider>
+      <div className="page">
+          <div className="container">
+              <Routes>
+                  <Route
+                      path="/"
+                      element={<Main />} />
+                  <Route
+                      path="/six"
+                      element={<ChoiceNumberSix />} />
+                  <Route
+                      path="/nine"
+                      element={<ChoiceNumberNine />} />
+                  <Route
+                      path="/error"
+                      element={<Error/>} />
+                  <Route
+                      path="*"
+                      element={<Navigate to='/error'/>} />
+              </Routes>
+          </div>
+      </div>
   );
 }
 
