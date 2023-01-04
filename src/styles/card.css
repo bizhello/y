@@ -11,3 +11,23 @@
     object-position: center;
     border-radius: 10px;
 }
+.card__title {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    color: #3c2707;
+    margin-left: 3%;
+}
+.card__button {
+    position: absolute;
+    bottom: 85%;
+    left: 80%;
+    width: 48px;
+    height: 48px;
+    border: 0;
+    background: url("../images/reload.svg") no-repeat center;
+    transition: opacity 0.3s ease;
+}
+.card__button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

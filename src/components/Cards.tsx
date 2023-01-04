@@ -8,7 +8,7 @@ const Cards = ({cards}:{cards: ICard[]}) => {
     return (
         <div className='cards'>
              {cards.map((card, index) => (
-                <Card key={index} src={card.src} />
+                <Card key={index} src={card.src} name={card.name}/>
              ))}
         </div>
     );
