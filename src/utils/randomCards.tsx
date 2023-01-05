@@ -1,4 +1,4 @@
-import ICard from './../interface/interface'
+import ICard from '../interface/ICard'
 
 const randomCards = (cards:ICard[], idNumbers:number[]): ICard[] => {
     const newCards: ICard[] = []

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes, Navigate } from 'react-router-dom';
 
-import './styles/App.css';
+import './styles/app.css';
 import Main from './components/Main';
 import Error from './components/Error'
 import ChoiceNumberSix from "./components/ChoiceNumberSix";

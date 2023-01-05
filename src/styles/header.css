@@ -11,8 +11,8 @@
     font-size: 2rem;
     color: #e1c86c;
     position: absolute;
-    bottom: 180%;
-    left: 31%;
+    bottom: 100%;
+    left: 45%;
     transition: opacity 0.3s ease;
     text-decoration: none;
 }
@@ -68,12 +68,12 @@ svg {
     100% {stroke-dashoffset: -35%;}
 }
 
-@media (min-width: 905px)  {
+@media (max-width: 905px)  {
     svg {
         font: 5.5em 'Montserrat';
     }
     .header__text {
-        bottom: 100%;
-        left: 45%;
+        bottom: 142%;
+        left: 32%;
     }
 }

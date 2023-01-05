@@ -1,4 +1,4 @@
-import ICard from './../interface/interface'
+import ICard from '../interface/ICard'
 
 const allCards:ICard[] = [
     {
